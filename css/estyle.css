@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    width: 70%;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header {
+    display: flex;
+}
+
+.izquierda {
+    width: 60%;
+    background-color: red;
+    height: 10rem;
+}
+
+.izquierda H1 {
+    color: white;
+    text-align: center;
+    line-height: 10rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.derecha {
+    align-items: center;
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+}
+
+.center {
+    display: flex;
+
+}
+
+.centerL {
+    background-color: lightgray;
+
+    width: 30%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.centerL img {
+    margin-top: 7rem;
+}
+
+
+.centerR {
+    margin-top: 5rem;
+    width: 70%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.head {
+
+
+    width: 70%;
+    height: 10rem;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.head h1,
+h2 {
+    margin-top: 2rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenidoR {
+    margin-top: 1rem;
+    flex-direction: column;
+    display: flex;
+    margin-bottom: 4rem;
+}
+
+.contenidoR h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-top: 1rem;
+
+}
+
+.contenidoR input {
+    margin-top: 1rem;
+    height: 3rem;
+
+
+}
+
+.contenidoR button {
+    margin-top: 1rem;
+    cursor: pointer;
+    background-color: red;
+    border: transparent;
+    height: 3rem;
+    margin-bottom: 2rem;
+
+
+
+}
+
+.contenidoR span {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.contenidoR button:hover {
+    background-color: rgba(255, 0, 0, 0.432);
+}
+
+footer {
+    width: 100%;
+    background-color: red;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.mitad {
+    
+    flex-direction: row;
+    height: 50%;
+    width: 100%;
+    text-align: center;
+
+
+
+}
+.mitad img{
+    margin-top: 1rem;
+}
+
+.mitad2 {
+    text-align: center;
+}
+
+footer a {
+    color: white;
+
+
+
+}
+
+.mm {
+    width: 20%;
+    margin-left: 10%;
+}
